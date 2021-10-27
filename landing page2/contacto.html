@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="landingpage6.html">FTA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="landingpage6.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#carousel">Galería de Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="text-center"> Contáctanos</h1>
+    <div class="container">
+        <h1 class="text-center"> Formulario de Contacto</h1>
+        <h5>Importante es el llenado de todos los campos para dar una respuesta a sus consultas</h5>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Apellidos</label>
+                <input type="text" class="form-control" id="apellido" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Rut (Sin puntos ni guión)</label>
+                <input type="number" class="form-control" id="rut" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Fono contacto</label>
+                <input type="number" class="form-control" id="fono" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="">Tipo de Auto a Financiar</label>
+                <input type="radio" name="auto" value="nuevo">Nuevo
+                <input type="radio" name="auto" value="usado">Usado
+                <p>(Vehículo a financiar debe ser desde el año 2011 en adelante)</p>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Precio del vehículo</label>
+                <input type="number" class="form-control" id="precio" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Pie </label>
+                <input type="number" class="form-control" id="pie" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Monto a Financiar</label>
+                <input type="number" class="form-control" id="financiamiento" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Renta Líquida</label>
+                <input type="number" class="form-control" id="renta" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Antiguedad en su actual empleo</label>
+                <select class="form-control" id="antiguedad">
+                    <option>Menos de 6 meses con continuidad laboral</option>
+                    <option>De 6 a 12 meses</option>
+                    <option>Más de 1 año</option>
+                    <option>Más de 2 años</option>
+
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Tipo de actividad desarrollada</label>
+                <select class="form-control" id="actividad">
+                    <option>Dependiente</option>
+                    <option>Independiente</option>
+                    <option>Dependiente e Independiente</option>
+                    <option>Pensionado</option>
+                    <option>Pensionado y Dependiente</option>
+                    <option>Fuerzas Armadas</option>
+                    <option>Otros</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Comentarios</label>
+                <textarea class="form-control" id="comentarios" rows="3"></textarea>
+
+            </div>
+            <input type="submit" value="Enviar solicitud de Contacto">
+            
+        </form>
+    </div>
+    <footer class="mt-5 p-5 bg-secondary text-light">
+        <div class="row">
+            <div class="col">
+                <h3>Contáctanos al siguiente email</h3>
+                <p>comercial@financiamostuauto.cl</p>
+            </div>
+            <div class="col"></div>
+
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+    <script src="estructura.js"></script>
+</body>
+
+</html>
